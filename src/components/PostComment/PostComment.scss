@@ -1,0 +1,90 @@
+.post-center{
+margin:auto;
+display:block;
+display: grid;
+place-items: center;
+background-color: #CBE3FF;
+width: 50vw;
+margin-top: 2%;
+
+p{
+color: black;
+}
+
+input, select, .zipper{
+display: block;
+width: 400px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+text-align: center;
+margin: 1%;
+}
+
+select{
+width: 430px;
+display: block;
+margin: 0 auto;
+text-align-last: center;
+margin: 1%;
+
+option{
+text-align: center; 
+display: block;
+margin: 0 auto;
+text-align-last: center;
+}
+}
+
+button{
+margin: 5%;
+width: 200px;
+height: 30px;
+background-color: white;
+border: none;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+
+&:hover{
+opacity: 0.7;
+}
+}
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.formheader{
+background-color: #25274D;
+padding: 4%;
+color: white;
+width: 100%;
+margin-bottom: 3%;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .post-center{
+    width: 80%;
+    input, select, .zipper{
+        width: 300px;
+    }
+    }
+}

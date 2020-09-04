@@ -1,0 +1,25 @@
+.run-wrapper{
+width: 50%;
+padding-top: 2%;
+}
+
+.run-wrapper div {
+background-color: #CBE3FF;
+}
+
+.run-header {
+background-color: #25274D;
+padding: 4%;
+color: white;
+}
+
+.run-text{
+padding: 2%;
+}
+
+@media screen and (max-width: 992px) {
+
+    .run-wrapper{
+    width: 80%;
+    }
+}

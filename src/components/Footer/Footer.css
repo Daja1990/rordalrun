@@ -1,0 +1,83 @@
+*{
+padding:0;
+margin:0;
+}
+
+footer{
+background: #25274d;
+text-align:center;
+left: 0;
+bottom: 0;
+width: 100%;
+position: relative;
+font-family: 'Open Sans', sans-serif;
+color: white;
+height: 25vh;
+margin-top: 5%;
+}
+
+.footer-sec{
+display: -ms-grid;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+height: 100%;
+}
+
+.footer-logos{
+/* padding-top: 10%; */
+padding-top: 7vh;
+overflow-y: hidden;
+}
+
+.sm-logo{
+display: inline;
+width: 50%;
+height: 50%;
+margin-right: -20%;
+cursor: pointer;
+}
+
+.sm-logo2{
+display: inline;
+width: 50%;
+height: 50%;
+cursor: pointer;
+}
+
+.sm-logo2:hover{
+animation:spin .5s linear;
+}
+
+.sm-logo:hover{
+animation:spin .5s linear;
+}
+
+@keyframes spin{
+100% { 
+-webkit-transform: rotate(360deg); 
+transform: rotate(360deg); 
+    } 
+}
+
+.info-footer{
+padding-top: 5%;
+font-size: 2vh;
+}
+
+.info-footer p{
+cursor: pointer;
+}
+
+.info-footer p:hover{
+opacity: 0.6;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .sm-logo{
+    margin-right: -5%;
+    }
+
+}

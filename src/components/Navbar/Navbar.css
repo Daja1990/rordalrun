@@ -1,0 +1,140 @@
+.full-nav{
+color: white;
+/* font-size: 100%; */
+position: absolute;
+top: 0%;
+width: 100%;
+text-align: center;
+z-index: 100;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+}
+
+.burger-nav{
+display: none;
+}
+
+li{
+display: inline;
+color: white;
+/* position: relative; */
+}
+
+.full-nav li{
+padding-left: 30px;
+display: inline;
+padding-right: 20px;
+}
+
+a{
+text-decoration:none;
+color: white;
+font-size: 20px;
+}
+
+a:hover{
+opacity: 0.7;
+}
+
+.navtext{
+padding-top: 100px;
+font-family: 'Open Sans', sans-serif;
+font-size: 3em;
+}
+
+
+/* Ny kode her / burger menu  */
+
+@media screen and (max-width: 992px) {
+
+.full-nav{
+display: none;
+}
+
+.burger-nav{
+display: block;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+  outline: none;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #333;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  /* background: #000; */
+  background: #29648a;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.burger-nav{
+color: white;
+font-size: 1vw;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+}
+
+.burger-nav li{
+display: block;
+text-align: center;
+margin: 2%;
+}
+
+}

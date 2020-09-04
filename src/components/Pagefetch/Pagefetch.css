@@ -1,0 +1,75 @@
+img {
+  width: 15vw;
+}
+
+.pagefetch {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (60%)[40%];
+      grid-template-columns: repeat(40%, 60%);
+  grid-gap: 10px;
+  padding-bottom: 10%;
+}
+
+.fetchclass div {
+  background-color: #CBE3FF;
+}
+
+.apiheader {
+  font-weight: 600;
+  font-size: 1vw;
+  padding-bottom: 6%;
+  padding-top: 4%;
+  background-color: #25274D;
+  color: white;
+}
+
+.dangerhtml {
+  margin-bottom: 2%;
+}
+
+.pageheader {
+  background-color: #25274D;
+  padding: 4%;
+  color: white;
+}
+
+.danger-txt {
+  background-color: #CBE3FF;
+  padding: 5%;
+}
+
+.rungrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px 10px;
+}
+
+.wrappings {
+  background-color: #CBE3FF;
+  height: 100%;
+}
+
+.joggerimg {
+  width: 400px;
+  height: 200px;
+}
+
+.h2-fp {
+  width: 200%;
+  font-size: 1.17em;
+  padding: 4%;
+}
+
+@media screen and (max-width: 992px) {
+  .rungrid {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .h2-fp {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Pagefetch.css.map */
